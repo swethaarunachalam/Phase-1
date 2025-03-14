@@ -1,0 +1,73 @@
+/* Full-screen background */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin: 0;
+}
+
+/* Centered form container */
+.form-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+  transform: scale(1.05);
+}
+
+/* Form inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 2px solid #ff4b2b;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #e63946;
+  box-shadow: 0 0 8px rgba(255, 75, 43, 0.5);
+}
+
+/* Submit button */
+button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(255, 75, 43, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(to right, #e63946, #d62828);
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .form-container {
+    width: 90%;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

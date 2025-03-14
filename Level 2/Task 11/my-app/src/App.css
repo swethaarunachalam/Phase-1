@@ -1,0 +1,59 @@
+/* Full-screen background */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  margin: 0;
+}
+
+/* Centered list container */
+.list-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.list-container:hover {
+  transform: scale(1.05);
+}
+
+/* Heading */
+h1 {
+  color: #2c3e50;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #388e3c;
+  transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .list-container {
+    width: 90%;
+  }
+}

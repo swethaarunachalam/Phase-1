@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e6f7ff;
+  font-family: Arial, sans-serif;
+}
+
+.user-card {
+  background-color: #ffcccb;
+  color: #800000;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #ff5733;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+}
