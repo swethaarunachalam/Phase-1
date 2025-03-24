@@ -1,0 +1,48 @@
+/* Full Page Background */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4A90E2, #9013FE); /* Gradient Background */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Counter Container */
+.counter-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2); /* Semi-transparent black */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  min-width: 250px;
+}
+
+/* Counter Heading */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 8px;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:nth-child(1) { background-color: #28a745; color: white; } /* Green (Increment) */
+button:nth-child(2) { background-color: #dc3545; color: white; } /* Red (Decrement) */
+button:nth-child(3) { background-color: #ffc107; color: black; } /* Yellow (Reset) */
+
+button:hover {
+  opacity: 0.8;
+}
