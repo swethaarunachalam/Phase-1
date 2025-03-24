@@ -1,0 +1,78 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #0984e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #2d3436;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.counter button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  background: #0984e3;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.counter button:hover {
+  background: #0652dd;
+}
+
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background: #ffffff;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #2d3436;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  background: #b2bec3;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
