@@ -1,0 +1,69 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.controls {
+  margin: 15px;
+}
+
+.input-field {
+  padding: 8px;
+  font-size: 16px;
+  width: 80px;
+}
+
+.counter {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.counter-button,
+.reset-button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.counter-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.prime-container {
+  margin-top: 20px;
+}
+
+.prime-list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.prime-item {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
