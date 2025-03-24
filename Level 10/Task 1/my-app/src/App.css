@@ -1,0 +1,108 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  color: #222; /* Restored dark text color */
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111; /* Darker for better contrast */
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  color: #222; /* Dark text inside input */
+}
+
+.search-box button {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #e68900;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  color: #222; /* Dark text inside the weather card */
+}
+
+.weather-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.weather-card h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #333;
+}
+
+.weather-card p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+}
+
+.details {
+  margin-top: 15px;
+}
+
+.details p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #555;
+}
