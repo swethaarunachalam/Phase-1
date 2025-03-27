@@ -1,0 +1,4 @@
+Subject Averages:
+Math: 82.60
+Science: 85.20
+English: 84.60
