@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "67e385adfee807ad63228fbe"
+  },
+  "name": "Swetha",
+  "age": 20,
+  "grade": "10th",
+  "subjects": [
+    "Math",
+    "Science",
+    "English"
+  ],
+  "address": {
+    "street": "456 Main St",
+    "city": "Dharmapuri"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e385b0fee807ad63228fbf"
+  },
+  "name": "Swathi",
+  "age": 21,
+  "subjects": [
+    "Science",
+    "Social"
+  ],
+  "address": {
+    "street": "123 Main",
+    "city": "Theni"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e385b0fee807ad63228fc0"
+  },
+  "name": "Ajay",
+  "age": 18,
+  "grade": "12th",
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "address": {
+    "street": "789 Pine St",
+    "city": "Coimbatore"
+  }
+}]

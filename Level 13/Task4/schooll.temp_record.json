@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "67e39ac7fee807ad63228fc2"
+  },
+  "name": "swathi",
+  "age": 20,
+  "city": "theni"
+},
+{
+  "_id": {
+    "$oid": "67e39ac7fee807ad63228fc3"
+  },
+  "name": "Ajay",
+  "age": 23,
+  "city": "banglore"
+},
+{
+  "_id": {
+    "$oid": "67e39ac7fee807ad63228fc4"
+  },
+  "name": "Lokesh",
+  "age": 19,
+  "city": "dharmapuri"
+},
+{
+  "_id": {
+    "$oid": "67e39ac7fee807ad63228fc5"
+  },
+  "name": "sriram",
+  "age": 16,
+  "city": "chennai"
+},
+{
+  "_id": {
+    "$oid": "67e39bb3fee807ad63228fc7"
+  },
+  "name": "swathi",
+  "age": 20,
+  "city": "theni"
+},
+{
+  "_id": {
+    "$oid": "67e39bb3fee807ad63228fc8"
+  },
+  "name": "Ajay",
+  "age": 23,
+  "city": "banglore"
+},
+{
+  "_id": {
+    "$oid": "67e39bb3fee807ad63228fc9"
+  },
+  "name": "Lokesh",
+  "age": 19,
+  "city": "dharmapuri"
+},
+{
+  "_id": {
+    "$oid": "67e39bb3fee807ad63228fca"
+  },
+  "name": "sriram",
+  "age": 16,
+  "city": "chennai"
+}]
