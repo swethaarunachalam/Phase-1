@@ -1,0 +1,73 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  margin: 0;
+  color: #ffffff;
+}
+
+
+.toggle-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-container:hover {
+  transform: scale(1.05);
+}
+
+/* Button styles */
+button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(255, 152, 0, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(to right, #e68900, #e64a19);
+  transform: translateY(-3px);
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #4caf50, #388e3c);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .toggle-container {
+    width: 90%;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
