@@ -1,0 +1,104 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form Styling */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.task-form button:hover {
+  background: #218838;
+}
+
+/* Task List */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-list li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.task-list li.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+}
+
+.task-list span {
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.task-list p {
+  flex-grow: 2;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* Buttons */
+.task-list input[type="checkbox"] {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.task-list button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.task-list button:hover {
+  background: #c82333;
+}
