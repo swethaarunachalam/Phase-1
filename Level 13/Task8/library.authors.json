@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fb5"
+  },
+  "name": "Swetha",
+  "birth_date": "1999-05-15",
+  "nationality": "Indian",
+  "biography": "Swetha is a renowned author in technology.",
+  "books": [
+    {
+      "$oid": "67e4d74ab4012e2da7228fbb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fb6"
+  },
+  "name": "Swathi",
+  "birth_date": "1988-10-23",
+  "nationality": "Indian",
+  "biography": "Swathi specializes in thriller novels.",
+  "books": [
+    {
+      "$oid": "67e4d74ab4012e2da7228fbc"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fb7"
+  },
+  "name": "Lokesh",
+  "birth_date": "1995-07-11",
+  "nationality": "Indian",
+  "biography": "Lokesh writes historical fiction.",
+  "books": [
+    {
+      "$oid": "67e4d74ab4012e2da7228fbd"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fb8"
+  },
+  "name": "Ajay",
+  "birth_date": "1992-04-05",
+  "nationality": "Indian",
+  "biography": "Ajay is a poet and novelist.",
+  "books": [
+    {
+      "$oid": "67e4d74ab4012e2da7228fbe"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fb9"
+  },
+  "name": "Sriram",
+  "birth_date": "1985-09-18",
+  "nationality": "Indian",
+  "biography": "Sriram writes self-improvement books.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67e4d748b4012e2da7228fba"
+  },
+  "name": "Balaji",
+  "birth_date": "1990-12-20",
+  "nationality": "Indian",
+  "biography": "Balaji writes science fiction.",
+  "books": []
+}]

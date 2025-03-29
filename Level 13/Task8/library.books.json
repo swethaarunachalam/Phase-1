@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "67e4d74ab4012e2da7228fbb"
+  },
+  "title": "Mastering MongoDB",
+  "published_date": "2020-01-15",
+  "ISBN": "1234567890",
+  "page_count": 350,
+  "genres": [
+    "Technology",
+    "Database"
+  ],
+  "publisher": {
+    "name": "TechPress",
+    "location": "India"
+  },
+  "authors": [
+    {
+      "$oid": "67e4d748b4012e2da7228fb5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d74ab4012e2da7228fbc"
+  },
+  "title": "Mystery of the Lost",
+  "published_date": "2019-06-10",
+  "ISBN": "2345678901",
+  "page_count": 280,
+  "genres": [
+    "Thriller",
+    "Mystery"
+  ],
+  "publisher": {
+    "name": "Mystic Publishers",
+    "location": "UK"
+  },
+  "authors": [
+    {
+      "$oid": "67e4d748b4012e2da7228fb6"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d74ab4012e2da7228fbd"
+  },
+  "title": "The Ancient Kingdom",
+  "published_date": "2018-12-05",
+  "ISBN": "3456789012",
+  "page_count": 400,
+  "genres": [
+    "Historical Fiction"
+  ],
+  "publisher": {
+    "name": "Historical Reads",
+    "location": "India"
+  },
+  "authors": [
+    {
+      "$oid": "67e4d748b4012e2da7228fb7"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e4d74ab4012e2da7228fbe"
+  },
+  "title": "Heartfelt Poems",
+  "published_date": "2017-08-12",
+  "ISBN": "4567890123",
+  "page_count": 150,
+  "genres": [
+    "Poetry"
+  ],
+  "publisher": {
+    "name": "Poetic Minds",
+    "location": "India"
+  },
+  "authors": [
+    {
+      "$oid": "67e4d748b4012e2da7228fb8"
+    }
+  ]
+}]
