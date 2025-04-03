@@ -1,0 +1,15 @@
+[{
+  "_id": 101,
+  "name": "Author X",
+  "nationality": "USA"
+},
+{
+  "_id": 102,
+  "name": "Author Y",
+  "nationality": "UK"
+},
+{
+  "_id": 103,
+  "name": "Author Z",
+  "nationality": "India"
+}]

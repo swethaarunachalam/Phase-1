@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "67e385adfee807ad63228fbe"
+  },
+  "name": "Swetha",
+  "age": 20,
+  "grade": "10th",
+  "subjects": [
+    "Math",
+    "Science",
+    "English"
+  ],
+  "address": {
+    "street": "456 Main St",
+    "city": "Dharmapuri"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67e385b0fee807ad63228fbf"
+  },
+  "name": "Swathi",
+  "age": 21,
+  "subjects": [
+    "Science",
+    "Social"
+  ],
+  "address": {
+    "street": "123 Main",
+    "city": "Theni"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e385b0fee807ad63228fc0"
+  },
+  "name": "Ajay",
+  "age": 20,
+  "grade": "12th",
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "address": {
+    "street": "789 Pine St",
+    "city": "Coimbatore"
+  }
+},
+{
+  "_id": 1,
+  "title": "Book A",
+  "author_id": 101
+},
+{
+  "_id": 2,
+  "title": "Book B",
+  "author_id": 102
+},
+{
+  "_id": 3,
+  "title": "Book C",
+  "author_id": 101
+},
+{
+  "_id": 4,
+  "title": "Book D",
+  "author_id": 103
+}]
