@@ -1,0 +1,12 @@
+body{
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+}
+h1{
+    color: purple;
+}
+p{
+    color: pink;
+}
