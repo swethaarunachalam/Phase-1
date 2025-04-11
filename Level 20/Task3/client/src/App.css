@@ -1,0 +1,106 @@
+/* Overall Page Style */
+body {
+  background: linear-gradient(-45deg, #646662, #086685, #a7d0e1, #435a85);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Animate background gradient */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Container for entire app */
+.container {
+  max-width: 1000px;
+  width: 90%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card component */
+.card {
+  background: rgba(207, 53, 228, 0.167);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(121, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadein 0.8s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(204, 61, 63, 0.2);
+}
+
+/* Inputs and Textareas */
+input,
+textarea {
+  margin: 10px auto;
+  padding: 14px;
+  width: 90%;
+  max-width: 600px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+/* Animation: fade in cards */
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional bounce effect */
+.bouncein {
+  animation: bounce 0.8s ease;
+}
+
+@keyframes bounce {
+  0% { transform: scale(0.9); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
