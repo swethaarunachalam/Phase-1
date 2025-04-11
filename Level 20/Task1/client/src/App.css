@@ -1,0 +1,111 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+  margin: 0;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  background: #ffb6b9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #333;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  background: #fae3d9;
+  transform: scale(1.05);
+}
+
+/* Form styling */
+form {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #ffa69e;
+  box-shadow: 0 0 5px rgba(255, 166, 158, 0.8);
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 12px;
+  background: #fdfcdc;
+  padding: 15px;
+  border-radius: 10px;
+  animation: slideIn 0.5s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Completed task */
+.done {
+  text-decoration: line-through;
+  background-color: #b8f2e6;
+  color: #777;
+  transition: all 0.3s;
+}
+
+/* Buttons */
+button {
+  margin-left: 10px;
+  background-color: #ffa69e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff686b;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

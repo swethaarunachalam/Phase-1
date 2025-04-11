@@ -1,0 +1,44 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-fancy bg-gradient-to-tr from-secondary via-white to-accent text-gray-800;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  @apply text-primary font-bold;
+}
+
+.card {
+  @apply bg-card rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105;
+}
+
+.fade-in {
+  @apply animate-fadeIn;
+}
+
+.slide-up {
+  @apply animate-slideUp;
+}
+
+.scale-in {
+  @apply animate-scaleIn;
+}
+
+.floaty {
+  @apply animate-float;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-lg shadow-md hover:bg-purple-700 transition duration-300;
+}
+
+.input-field {
+  @apply border border-primary rounded-lg p-2 w-full focus:ring-2 focus:ring-primary;
+}
+
+.note-box {
+  @apply bg-note p-3 rounded-lg text-sm text-gray-700 mt-2;
+} */
